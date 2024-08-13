@@ -1,0 +1,45 @@
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 200px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #09f;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 5px;
+}
+
+.info p {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.info span {
+  font-weight: bold;
+}

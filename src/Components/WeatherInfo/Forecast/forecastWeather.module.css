@@ -1,0 +1,10 @@
+.forecastContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.heading {
+  color: #09f;
+}

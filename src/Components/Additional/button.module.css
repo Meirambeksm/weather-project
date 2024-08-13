@@ -1,0 +1,53 @@
+.button {
+  cursor: pointer;
+}
+
+.geo {
+  background-color: transparent;
+  border: none;
+  width: 40px;
+  height: 100%;
+}
+
+.primary {
+  padding: 10px 30px;
+  border: none;
+  background-color: #09f;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  animation: pulse 1.5s infinite;
+}
+
+.primary:hover {
+  font-weight: bold;
+}
+
+.secondary {
+  height: 30px;
+  width: 200px;
+  padding: 0 30px;
+  border: 1px solid #09f;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #09f;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.secondary:hover {
+  font-weight: 700;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

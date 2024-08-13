@@ -1,0 +1,16 @@
+.weatherInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 25%;
+  color: red;
+  font-size: 20px;
+}

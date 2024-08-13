@@ -1,0 +1,59 @@
+.card {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to top left, rgb(0, 132, 220), #c0d6e582);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #333;
+}
+
+.day {
+  font-size: 14px;
+}
+
+.temp {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.description {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+}
+
+.weatherIcon {
+  width: 40px;
+  height: 40px;
+}
+
+.weatherDescription {
+  font-size: 14px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+}
+
+.details p {
+  font-size: 12px;
+}
+
+.details span {
+  font-weight: 700;
+}

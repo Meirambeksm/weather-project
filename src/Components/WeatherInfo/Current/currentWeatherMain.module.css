@@ -1,0 +1,20 @@
+.currentWeatherMainWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(to top left, #09f, #0492f082);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.currentWeatherMain {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+  color: #fff;
+}
+
+.location {
+  font-size: 16px;
+  font-weight: bold;
+}
